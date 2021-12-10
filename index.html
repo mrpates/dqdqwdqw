@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+		Quitter
+	</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="kwitter.css">
+    <script src="kwitter.js"></script>
+</head>
+
+<body>
+
+    <div class=" left_div" height=1000px>
+        <h1>Regret</h1>
+        <br>
+        <img src="https://uxwing.com/wp-content/themes/uxwing/download/37-communication-chat-call/no-message.png">
+    </div>
+    <div class=" col-lg-6 col-md-6 col-sm-11 col-xs-11 main_div ">
+        <center>
+            <h1 class="header">
+                Quitter <sup>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/M%C3%A3e-da-lua-gigante_%28Nyctibius_grandis%29.jpg/220px-M%C3%A3e-da-lua-gigante_%28Nyctibius_grandis%29.jpg">
+                </sup>
+            </h1>
+              <img src="https://images.squarespace-cdn.com/content/v1/510be2c1e4b0b9ef3923f158/1551367533605-87SJLKO6W0LY37FAZ5TW/Potoos-Internet-Sensation-Feb-2019-potoo-with-owls-camelid-1000-px-tiny-Feb-2019-Tetrapod-Zoology.jpg" class="logo" >        
+            <div class="col-lg-6 col-md-6 col-sm-11 col-xs-11 login_div">
+
+                <img src="https://graphicriver.img.customer.envatousercontent.com/files/263203264/f%20grade%20emoticon%20preview.jpg?auto=compress%2Cformat&q=80&fit=crop&crop=top&max-h=8000&max-w=590&s=6462b999bd36da818aa8ebd6df2f07c2" class="logo">
+                <br><br>
+
+                <h3 style="font-family: 'Josefin Sans', sans-serif;">DisLike, UnShare and ThumbsDown the you're ideas</h3>
+                <br><br>
+                <h4 style="font-family: 'Josefin Sans', sans-serif;">Join Quitter today and never return</h4>
+                <br><br>
+                <div class="form-group">
+                    <label style="font-family: 'Josefin Sans', sans-serif;">Prisoner Name:</label>
+                    <input type="text" id="user_name" class="form-control" placeholder="User Name">
+                </div>
+                <br><br>
+                <button id="login_button" class="btn " onclick="addUser()">Log in</button>
+                <br><br>
+            </div>
+        </center>
+    </div>
+</body>
+
+</html>
